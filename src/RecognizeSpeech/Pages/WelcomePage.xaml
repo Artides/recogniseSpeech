@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecognizeSpeech.Pages.WelcomePage"
+             NavigationPage.HasNavigationBar="False"
+             Title="">
+   <Grid
+        Padding="16"
+        RowDefinitions="*, *, auto"
+        ColumnDefinitions="*">
+
+
+        <Label Text="Riconoscimento vocale per migliorare la pronuncia"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"
+               FontSize="24"
+               FontAttributes="Bold"/>
+
+        <!--<Picker Grid.Row="1"
+            ItemsSource="{Binding Locales}"
+            SelectedItem="{Binding Locale}"
+            ItemDisplayBinding="{Binding ., Converter={StaticResource PickerDisplayConverter}}"/>-->
+
+        <Button
+            Grid.Row="2"
+            Text="START"
+            FontAttributes="Bold"/>
+
+    </Grid>
+</ContentPage>
