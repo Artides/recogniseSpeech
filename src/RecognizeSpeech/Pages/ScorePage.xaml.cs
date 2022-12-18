@@ -1,4 +1,4 @@
-﻿namespace RecogniseSpeech.Pages;
+﻿namespace RecognizeSpeech.Pages;
 
 public partial class ScorePage : ContentPage
 {

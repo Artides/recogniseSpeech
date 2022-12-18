@@ -1,5 +1,5 @@
 ﻿using System;
-namespace RecogniseSpeech.ViewModels
+namespace RecognizeSpeech.ViewModels
 {
 	public class Score
 	{

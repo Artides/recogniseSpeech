@@ -1,5 +1,5 @@
 ﻿using System;
-namespace RecogniseSpeech.Domain
+namespace RecognizeSpeech.Domain
 {
 	public class Text
 	{
