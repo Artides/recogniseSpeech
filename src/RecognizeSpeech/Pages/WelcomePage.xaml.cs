@@ -2,8 +2,9 @@
 
 public partial class WelcomePage : ContentPage
 {
-	public WelcomePage()
+	public WelcomePage(ViewModels.Welcome welcome)
 	{
 		InitializeComponent();
+		BindingContext = welcome;
 	}
 }
